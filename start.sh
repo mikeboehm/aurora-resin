@@ -3,8 +3,21 @@
 export PASSWD=${PASSWD:=root}
 #Set the root password
 echo "root:$PASSWD" | chpasswd
+
+echo "pants pants pants"
+echo "pants pants pants"
+echo "pants pants pants"
+echo "pants pants pants"
+echo "pants pants pants"
+echo "pants pants pants"
+
 #Spawn dropbear
 dropbear -E -F &
+
+
+
+source /app/loader.sh
+
 
 #start your application from here...
 python app/main.py

@@ -1,3 +1,5 @@
 #!/bin/bash
 
-nohup lifx-http &
+
+lifx-http &
+sudo python /app/Aurora/aurora_exec.py &

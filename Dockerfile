@@ -7,8 +7,8 @@ RUN apt-get install -y ruby2.0 && gem install lifx-http
 # Install Dropbear.
 RUN apt-get install -y dropbear
 RUN pip install flask
-#RUN apt-get install -y git
-#RUN git clone git@github.com:mikeboehm/Aurora.git
+RUN apt-get install -y git
+
 COPY . /app
 
 CMD ["bash", "/app/start.sh"]

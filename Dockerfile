@@ -9,6 +9,8 @@ RUN apt-get install -y dropbear
 RUN pip install flask
 RUN apt-get install -y git
 
+RUN git clone https://github.com/mikeboehm/Aurora.git
+
 COPY . /app
 
 CMD ["bash", "/app/start.sh"]

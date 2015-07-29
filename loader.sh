@@ -1,7 +1,7 @@
 #!/bin/bash
 
-git --git-dir=/app/.git/ --work-tree=/app/ submodule init
-git --git-dir=/app/.git/ --work-tree=/app/ submodule update
+# git --git-dir=/app/.git/ --work-tree=/app/ submodule init
+# git --git-dir=/app/.git/ --work-tree=/app/ submodule update
 
 
 lifx-http &

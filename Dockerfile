@@ -10,7 +10,8 @@ RUN pip install flask
 RUN apt-get install -y git
 
 RUN git clone https://github.com/mikeboehm/Aurora.git /app/Aurora
-#RUN git clone https://github.com/mikeboehm/aurora-web.git /app/aurora-web
+RUN sh /app/Aurora/install_dependencies.sh
+RUN git clone https://github.com/mikeboehm/aurora-web.git /app/aurora-web
 
 COPY . /app
 

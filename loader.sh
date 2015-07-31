@@ -8,3 +8,5 @@ source /app/Aurora/install_dependencies.sh
 
 lifx-http &
 sudo python /app/Aurora/aurora_exec.py &
+
+exit 0

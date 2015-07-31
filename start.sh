@@ -13,4 +13,4 @@ dropbear -E -F &
 
 
 #start your application from here...
-python app/main.py
+python app/main.py &

@@ -13,9 +13,7 @@ echo "################################################"
 #Spawn dropbear
 dropbear -E -F &
 
-
-
-source /app/loader.sh
+# source /app/loader.sh
 
 
 #start your application from here...
